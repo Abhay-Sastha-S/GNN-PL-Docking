@@ -34,3 +34,17 @@ The primary goal of this repository is to:
   The repository also includes modules for analyzing docking results to compute drug consensus scores, which can be used to suggest potential therapeutic candidates for emerging diseases.
 
 This repository is aimed at the academic and research community to serve as a stepping stone for further exploration and development of deep learning methods in structural bioinformatics and drug discovery.
+
+## ----NOTE----
+the image added to this repository is from the trial run of the proposed DI-GNN model for PL Docking, it seems to have achieved 
+```bash
+Epoch 800/800, Loss: 0.0470
+Evaluation Metrics:
+RMSE: 0.0358
+R²: 0.9747
+```
+but these high scores might be a result of the data leakage through the simple feature engineering and non-realistic mapping of functions, as it was a POC. But can be fixed via more realistic dataset as input.
+- Non-Linear Relationship Between Features and Target
+- Heterogeneous Node Features and Edge Attributes
+- More Noise & Randomness in Graph Structure 
+
