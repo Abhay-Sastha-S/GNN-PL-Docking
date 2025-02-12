@@ -25,6 +25,12 @@ Protein–ligand docking is a critical step in computational drug discovery. Cla
   - `proposal.md`:  
     A project proposal document that explains the conceptual design of DI-GNN, detailing the proposed architecture, what has been implemented so far, and what remains to be developed for a full implementation.
 
+- **Proposal and Documentation:**
+  - `ZINC-in-tranches.smiles.zip` and `pdbbind_index.tar.gz`:
+    Proposed databases that could be clubbed to create the final database to train the model on protein-ligand docking.
+    - [PDBBind](http://www.pdbbind.org.cn/download/pdbbind_v2020_plain_text_index.tar.gz)
+    - [ZINC Smiles](https://files.docking.org/2D/)
+      
 ## Main Use and Goal
 
 The primary goal of this repository is to:
