@@ -27,7 +27,7 @@ class MedusaGraphModel(nn.Module):
             x = F.relu(x)
             x = self.dropout(x)
         delta = self.fc_delta(x)  # Per-atom coordinate correction\n
-        refined_pos = pos + delta\n
+        refined_pos = pos + delta
         return refined_pos
 
 # Example usage:
