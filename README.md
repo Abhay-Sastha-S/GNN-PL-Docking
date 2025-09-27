@@ -1,6 +1,10 @@
 # GNN-PL-Docking
 
-**GNN-PL-Docking** is a repository for protein–ligand docking using Graph Neural Networks (GNNs). The repository contains re-implementations inspired by recent state-of-the-art approaches—including DI-GNN, MedusaGraph, and EquiBind—and serves as a platform for exploring how different GNN architectures and feature selection techniques can be applied to docking tasks.
+**GNN-PL-Docking** is a repository for protein–ligand docking using Graph Neural Networks (GNNs). The repository contains re-implementations inspired by recent state-of-the-art approaches—including DI-GNN, MedusaGraph, and EquiBind—and serves as a platform for exploring how different GNN architectures and feature selection techniques can be applied to docking tasks. We also propose a new architecture for a better and improved protein ligand docking understanding and prediction.
+
+# Proposal
+
+This project introduces **DI-GNN**, a novel approach to protein–ligand docking that overcomes limitations in traditional and existing GNN-based docking methods. By integrating dynamic interaction graphs, RL-guided pose refinement, and physics-informed ML models, DI-GNN provides a more accurate, efficient, and generalizable solution for drug discovery. [proposal.md](https://github.com/Abhay-Sastha-S/GNN-PL-Docking/blob/main/proposal.md)
 
 ## Overview
 
